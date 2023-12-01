@@ -8,7 +8,7 @@ export const Hero = () => {
         <picture>
             <img src={ HeroImagen } alt="Imagen Hero" />
         </picture>
-        <h1 className='hero__titulo'>Páginas webs personalizadas</h1>
+        <h1 className='hero__titulo'>Páginas webs a medida</h1>
     </div>
   )
 }
