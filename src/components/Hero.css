@@ -1,0 +1,29 @@
+.hero{
+    position: relative;
+    top: 0; left: 0;
+    height: 100vh;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero picture img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero__titulo{
+    width: 80%;
+    padding: 5%;
+    font-size: var(--font-display);
+    text-align: center;
+    align-self: center;
+    color: var(--negro);
+    background-color: var(--gris-70);
+    border-radius: 5px;
+}

@@ -1,0 +1,95 @@
+:root {
+    /*Colors*/
+
+    --verde: #74b959;
+    --verde-90: rgba(116, 185, 89, 0.9);
+    --verde-70: rgba(116, 185, 89, 0.7);
+    --verde-50: rgba(116, 185, 89, 0.5);
+    --verde-dark: #438332;
+
+    --negro: #1d1d1b;
+    --negro-90: rgba(29, 29, 27, 0.9);
+    --negro-70: rgba(29, 29, 27, 0.7);
+    --negro-50: rgba(29, 29, 27, 0.5);
+    --negro-light: #383836;
+
+    --gris: #ddd;
+    --gris-90: rgba(221, 221, 221, 0.9);
+    --gris-70: rgba(221, 221, 221, 0.7);
+    --gris-50: rgba(221, 221, 221, 0.5);
+    --gris-dark: #999998;
+
+
+
+    /*Typography*/
+    --base-font: 'Bahnschrift', sans-serif;
+    --alternative-font: 'Raleway', sans-serif;
+
+    /*Font-size*/
+    --font-display: 4.6em;
+    --font-jumbo: 3.8em;
+    --font-xlarge: 3em;
+    --font-large: 2.4em;
+    --font-medium: 1.8em;
+    --font-small: 1.6em;
+    --font-xsmall: 1.2em;
+    --font-xxsmall: 1em;
+
+    /*Spacings*/
+    --spacing-128: 12.8rem;
+    --spacing-96: 9.6rem;
+    --spacing-68: 6.8rem;
+    --spacing-36: 3.6rem;
+    --spacing-28: 2.8rem;
+    --spacing-24: 2.4rem;
+    --spacing-20: 2rem;
+    --spacing-16: 1.6rem;
+    --spacing-12: 1.2rem;
+    --spacing-8: 0.8rem;
+    --spacing-6: 0.6rem;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--base-font);
+    font-size: 62.5%;
+    color: var(--negro);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: inherit;
+    font-family: inherit;
+}
+
+header, footer {
+    font-family: var(--base-font);
+    color: var(--verde);
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+p {
+    font-size: var(--font-medium);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+
