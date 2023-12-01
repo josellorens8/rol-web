@@ -1,9 +1,9 @@
 const imagenes = {
-    diseno: "src/assets/iconos/diseno.png",
-    adaptable: "src/assets/iconos/adaptable.png",
-    seo: "src/assets/iconos/seo.png",
-    medida: "src/assets/iconos/medida.png",
-    ideas: "src/assets/iconos/ideas.png"
+    diseno: "iconos/diseno.png",
+    adaptable: "iconos/adaptable.png",
+    seo: "iconos/seo.png",
+    medida: "iconos/medida.png",
+    ideas: "iconos/ideas.png"
 }
 
 const servicios = [
